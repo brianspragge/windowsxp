@@ -1,0 +1,16 @@
+#!/bin/bash
+
+THEME_DIR="$HOME/.config/omarchy/themes/$1"
+WAYBAR_DIR="$HOME/.config/waybar"
+DEFAULT_DIR="$HOME/.local/share/omarchy/config/waybar"
+
+if [[ -f "$THEME_DIR/config.jsonc" ]]; then
+  cp "$THEME_DIR/config.jsonc" "$WAYBAR_DIR/config.jsonc"
+else
+  cp "$DEFAULT_DIR/config.jsonc" "$WAYBAR_DIR/config.jsonc"
+fi
+
+
+
+pkill -9 -x waybar 2>/dev/null
+setsid uwsm-app -- waybar >/dev/null 2>&1 &

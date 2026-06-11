@@ -1,0 +1,99 @@
+@define-color bar-bg-top #3D8EFF;
+@define-color bar-bg-highlight #3782E8;
+@define-color bar-bg-mid #1E5DD8;
+@define-color bar-bg-bottom #0D2E8A;
+
+@define-color start-green-edge #1F6947;
+@define-color start-green-top #3E803E;
+@define-color start-green-highlight #96C496;
+@define-color start-green-body #3C993C;
+@define-color start-green-bottom #1A6541;
+@define-color start-green-border #1A6444;
+
+@define-color button-bg #ECE9D8;
+@define-color button-bg-light #F1EFE2;
+@define-color button-bg-dark #D4D0C8;
+@define-color button-border #ACA899;
+@define-color button-border-dark #716F64;
+
+@define-color active-bg #0054E3;
+@define-color active-bg-dark #003D99;
+@define-color active-border #003D99;
+
+@define-color tray-bg #ECE9D8;
+@define-color tray-border #ACA899;
+
+@define-color text-dark #000000;
+@define-color text-light #FFFFFF;
+
+@define-color bg transparent;
+@define-color foreground #FFFFFF;
+@define-color background transparent;
+
+window#waybar {
+  background: linear-gradient(180deg, @bar-bg-top, @bar-bg-highlight 3px, @bar-bg-mid 8px, @bar-bg-bottom);
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid @bar-bg-highlight;
+  font-family: 'Tahoma', 'JetBrainsMono Nerd Font', sans-serif;
+}
+
+window#waybar .modules-left {
+  margin-left: 0;
+}
+
+window#waybar .modules-right {
+  margin-right: 0;
+}
+
+.modules-left #custom-omarchy {
+  background: linear-gradient(180deg, @start-green-top, @start-green-highlight 2px, @start-green-body 4px, @start-green-bottom);
+  border: 1px solid @start-green-border;
+  border-right: none;
+  border-radius: 0 8px 8px 0;
+  padding: 8px 4px 8px 2px;
+  color: @text-light;
+  margin-left: 0;
+}
+
+#workspaces button {
+  background: transparent;
+  color: @text-light;
+  border: none;
+  border-radius: 0;
+  padding: 0 8px;
+  margin: 2px 1px;
+  min-width: 16px;
+  font-size: 12px;
+}
+
+#workspaces button.active {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 2px;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#tray {
+  background: @tray-bg;
+  border: 1px solid @tray-border;
+  border-radius: 2px;
+  padding: 0 4px;
+  margin: 2px 4px;
+}
+
+#clock {
+  color: @text-light;
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+#cpu, #battery, #pulseaudio, #network, #bluetooth,
+#custom-update, #custom-expand-icon, #custom-weather,
+#custom-screenrecording-indicator, #custom-idle-indicator,
+#custom-notification-silencing-indicator, #custom-voxtype {
+  color: @text-light;
+}

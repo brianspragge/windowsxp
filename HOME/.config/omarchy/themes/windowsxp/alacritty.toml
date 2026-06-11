@@ -1,0 +1,45 @@
+[window]
+padding.x = 12
+padding.y = 12
+
+[font]
+family = "Lucida Console"
+size = 12.0
+
+[colors]
+[colors.primary]
+background = "#004E98"
+foreground = "#FFFFFF"
+dim_foreground = "#0054E3"
+
+[colors.cursor]
+text = "#FFFFFF"
+cursor = "#FFFFFF"
+
+[colors.vi_mode_cursor]
+text = "#FFFFFF"
+cursor = "#FFFFFF"
+
+[colors.selection]
+text = "#FFFFFF"
+background = "#3D95FF"
+
+[colors.normal]
+black = "#000000"
+red = "#C24531"
+green = "#3C9B3C"
+yellow = "#E6C340"
+blue = "#0054E3"
+magenta = "#8E3C9B"
+cyan = "#2B9B9B"
+white = "#C0C0C0"
+
+[colors.bright]
+black = "#5A5A5A"
+red = "#E67E5C"
+green = "#5CBF5C"
+yellow = "#F0D060"
+blue = "#3D95FF"
+magenta = "#B060C0"
+cyan = "#5CC0C0"
+white = "#FFFFFF"

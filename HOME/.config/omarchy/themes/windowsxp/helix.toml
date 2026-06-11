@@ -1,0 +1,84 @@
+"ui.background" = { background = "#004E98" }
+"ui.text" = { foreground = "#FFFFFF" }
+"ui.text.focus" = { foreground = "#FFFFFF" }
+"ui.cursor" = { foreground = "#FFFFFF" }
+"ui.cursor.match" = { foreground = "#FFFFFF" }
+"ui.selection" = { background = "#3D95FF", foreground = "#FFFFFF" }
+"ui.virtual.whitespace" = { foreground = "#5A5A5A" }
+"ui.virtual.ruler" = { foreground = "#5A5A5A" }
+"ui.virtual.inlay-hint" = { foreground = "#5A5A5A" }
+"ui.menu" = { background = "#004E98", foreground = "#FFFFFF" }
+"ui.menu.selected" = { background = "#3D95FF", foreground = "#FFFFFF" }
+"ui.linenr" = { foreground = "#5A5A5A" }
+"ui.linenr.selected" = { foreground = "#FFFFFF", background = "#3D95FF" }
+"ui.statusline" = { background = "#004E98", foreground = "#FFFFFF" }
+"ui.statusline.inactive" = { background = "#004E98", foreground = "#5A5A5A" }
+"ui.statusline.normal" = { background = "#0054E3", foreground = "#FFFFFF" }
+"ui.statusline.insert" = { background = "#3C9B3C", foreground = "#FFFFFF" }
+"ui.statusline.select" = { background = "#C24531", foreground = "#FFFFFF" }
+"ui.popup" = { background = "#004E98", foreground = "#FFFFFF" }
+"ui.window" = { background = "#004E98", foreground = "#FFFFFF" }
+"ui.help" = { background = "#004E98", foreground = "#FFFFFF" }
+"ui.highlight" = { background = "#3D95FF", foreground = "#FFFFFF" }
+"ui.highlight.fram" = { foreground = "#FFFFFF", modifiers = ["bold"] }
+"info" = { foreground = "#3D95FF" }
+"warning" = { foreground = "#E6C340" }
+"error" = { foreground = "#C24531" }
+"diagnostic" = { foreground = "#8E3C9B" }
+
+"markup.heading.marker" = { foreground = "#C24531" }
+"markup.heading.1" = { foreground = "#C24531" }
+"markup.heading.2" = { foreground = "#3C9B3C" }
+"markup.heading.3" = { foreground = "#E6C340" }
+"markup.heading.4" = { foreground = "#0054E3" }
+"markup.heading.5" = { foreground = "#8E3C9B" }
+"markup.heading.6" = { foreground = "#2B9B9B" }
+"markup.link.url" = { foreground = "#3D95FF" }
+"markup.link.text" = { foreground = "#3D95FF" }
+"markup.list" = { foreground = "#FFFFFF" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+
+"comment" = { foreground = "#5A5A5A", modifiers = ["italic"] }
+"constant" = { foreground = "#B060C0" }
+"constant.numeric" = { foreground = "#E6C340" }
+"constant.character.escape" = { foreground = "#E67E5C" }
+"constant.builtin" = { foreground = "#3D95FF" }
+
+"string" = { foreground = "#3C9B3C" }
+"string.special" = { foreground = "#F0D060" }
+"string.special.symbol" = { foreground = "#FFFFFF" }
+
+"constructor" = { foreground = "#B060C0" }
+"function" = { foreground = "#3D95FF" }
+"function.builtin" = { foreground = "#3D95FF" }
+"function.macro" = { foreground = "#E67E5C" }
+"function.method" = { foreground = "#3D95FF" }
+"function.special" = { foreground = "#E6C340" }
+
+"keyword" = { foreground = "#C24531" }
+"keyword.directive" = { foreground = "#E67E5C" }
+"keyword.control" = { foreground = "#C24531" }
+"keyword.control.conditional" = { foreground = "#C24531" }
+"keyword.control.repeat" = { foreground = "#C24531" }
+"keyword.control.import" = { foreground = "#C24531" }
+"keyword.control.return" = { foreground = "#C24531" }
+"keyword.control.exception" = { foreground = "#E67E5C" }
+"keyword.function" = { foreground = "#E67E5C" }
+"keyword.operator" = { foreground = "#0054E3" }
+
+"label" = { foreground = "#E6C340" }
+"namespace" = { foreground = "#B060C0" }
+"operator" = { foreground = "#FFFFFF" }
+"property" = { foreground = "#3D95FF" }
+"punctuation" = { foreground = "#C0C0C0" }
+"punctuation.special" = { foreground = "#E6C340" }
+"tag" = { foreground = "#C24531" }
+"type" = { foreground = "#3D95FF" }
+"type.builtin" = { foreground = "#3D95FF" }
+"type.enum" = { foreground = "#3D95FF" }
+"variable" = { foreground = "#FFFFFF" }
+"variable.builtin" = { foreground = "#E67E5C" }
+"variable.parameter" = { foreground = "#E6C340" }
+"variable.other.member" = { foreground = "#FFFFFF" }

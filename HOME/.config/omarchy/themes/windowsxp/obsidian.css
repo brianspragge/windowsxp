@@ -1,0 +1,56 @@
+.theme-dark {
+  --background-primary: #004E98;
+  --background-primary-alt: #004E98;
+  --background-secondary: #004E98;
+  --background-secondary-alt: #004E98;
+  --text-normal: #FFFFFF;
+  --text-selection: #3D95FF;
+  --background-modifier-border: #5A5A5A;
+  --text-title-h1: #C24531;
+  --text-title-h2: #3C9B3C;
+  --text-title-h3: #E6C340;
+  --text-title-h4: #0054E3;
+  --text-title-h5: #8E3C9B;
+  --text-title-h6: #2B9B9B;
+  --text-link: #3D95FF;
+  --text-accent: #0054E3;
+  --text-accent-hover: #3D95FF;
+  --interactive-accent: #0054E3;
+  --interactive-accent-hover: #3D95FF;
+  --text-muted: color-mix(in srgb, #FFFFFF 70%, transparent);
+  --text-faint: color-mix(in srgb, #FFFFFF 55%, transparent);
+  --code-normal: #C0C0C0;
+  --text-error: #C24531;
+  --text-error-hover: #E67E5C;
+  --text-success: #3C9B3C;
+  --tag-color: #5A5A5A;
+  --tag-background: #5A5A5A;
+  --graph-line: #5A5A5A;
+  --graph-node: #0054E3;
+  --graph-node-focused: #3D95FF;
+  --graph-node-tag: #5A5A5A;
+  --graph-node-attachment: #3C9B3C;
+}
+
+.cm-s-obsidian .cm-hmd-frontmatter {
+  color: #C0C0C0;
+}
+
+.cm-s-obsidian .cm-hmd-frontmatter.cm-atom {
+  color: #C0C0C0;
+}
+
+.cm-s-obsidian span.cm-keyword { color: #C24531; }
+.cm-s-obsidian span.cm-string { color: #3C9B3C; }
+.cm-s-obsidian span.cm-number { color: #E6C340; }
+.cm-s-obsidian span.cm-comment { color: #5A5A5A; }
+.cm-s-obsidian span.cm-operator { color: #0054E3; }
+.cm-s-obsidian span.cm-def { color: #0054E3; }
+
+.cm-s-obsidian .cm-formatting-list {
+  color: #FFFFFF;
+}
+
+.cm-s-obsidian .HyperMD-codeblock {
+  border-left-color: #0054E3;
+}
