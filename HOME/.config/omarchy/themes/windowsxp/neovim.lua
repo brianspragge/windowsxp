@@ -13,7 +13,7 @@ return {
       colors = {
         bg = "#004E98",
         lighter_bg = "#0A5AB8",
-        selection = "#2A6FD1",
+        selection = "#565759",
         muted = "#7DCFFF",
         dark_fg = "#C0C0C0",
         fg = "#FFFFFF",
@@ -66,7 +66,7 @@ return {
         hl.Comment = { fg = "#7DCFFF" }
         hl.LineNr = { fg = "#C0B000" }
         hl.CursorLineNr = { fg = "#FFD700", bold = true }
-        hl.Visual = { bg = "#2A6FD1" }
+        hl.Visual = { bg = "#565759" }
         hl.Search = { bg = "#FFFF60", fg = "#000000", bold = true }
         hl.IncSearch = { bg = "#FFA0A0", fg = "#000000", bold = true }
         hl.Todo = { bg = "#FFFF60", fg = "#000000", bold = true }
@@ -77,7 +77,7 @@ return {
         hl.MatchParen = { fg = "#FFFF60", bold = true }
         hl.CursorLine = { bg = "#0A5AB8" }
         hl.Pmenu = { bg = "#003366", fg = "#FFFFFF" }
-        hl.PmenuSel = { bg = "#2A6FD1", fg = "#FFFFFF" }
+        hl.PmenuSel = { bg = "#565759", fg = "#FFFFFF" }
         hl.Error = { fg = "#FFFFFF", bg = "#FF0000" }
         hl.ErrorMsg = { fg = "#FFFFFF", bg = "#FF0000", bold = true }
         hl.Title = { fg = "#FFFF60", bold = true }

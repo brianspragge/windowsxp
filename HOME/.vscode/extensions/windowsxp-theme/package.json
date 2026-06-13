@@ -1,0 +1,20 @@
+{
+  "name": "windowsxp-theme",
+  "displayName": "Windows XP Blue",
+  "description": "Windows XP classic blue theme with vibrant neovim-inspired syntax",
+  "version": "1.0.0",
+  "publisher": "windowsxp",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Windows XP Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/windowsxp-color-theme.json"
+      }
+    ]
+  }
+}

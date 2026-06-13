@@ -7,6 +7,10 @@ integrity of the code.  It was generated with Opencode.  Enjoy!
 This file is necessary in order to reload the waybar.  Omarchy does not
 currently have a nice implementation for very different waybar styles.
 
+## Make Vim theme file work
+silent! source ~/.config/omarchy/current/theme/vimrc\
+You need to add the above line to your .vimrc file.
+
 ![showcase image of what this theme looks like](showcase.png)
 
 # License
