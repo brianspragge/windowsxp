@@ -1,0 +1,28 @@
+accent = "#00E300"
+active_border_color = "#00E300"
+active_tab_background = "#00E300"
+
+cursor = "#FFFFFF"
+
+foreground = "#FFFFFF"
+background = "#009800"
+
+selection_foreground = "#FFFFFF"
+selection_background = "#565759"
+
+color0 = "#000000"
+color1 = "#FF6B6B"
+color2 = "#60B2FF"
+color3 = "#FFFF60"
+color4 = "#7DFF7D"
+color5 = "#FF80FF"
+color6 = "#40FF40"
+color7 = "#C0C0C0"
+color8 = "#006600"
+color9 = "#FFA0A0"
+color10 = "#80C2FF"
+color11 = "#FFFF80"
+color12 = "#A0FFA0"
+color13 = "#FFAAFF"
+color14 = "#80FF80"
+color15 = "#FFFFFF"

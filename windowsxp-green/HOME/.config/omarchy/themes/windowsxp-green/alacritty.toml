@@ -1,0 +1,42 @@
+[font]
+size = 12
+
+[font.normal]
+family = "Iosevka Term"
+
+[colors]
+[colors.primary]
+background = "#009800"
+foreground = "#FFFFFF"
+
+[colors.cursor]
+text = "#009800"
+cursor = "#FFFFFF"
+
+[colors.vi_mode_cursor]
+text = "#009800"
+cursor = "#FFFFFF"
+
+[colors.selection]
+text = "#FFFFFF"
+background = "#565759"
+
+[colors.normal]
+black = "#000000"
+red = "#FF6B6B"
+green = "#60B2FF"
+yellow = "#FFFF60"
+blue = "#7DFF7D"
+magenta = "#FF80FF"
+cyan = "#40FF40"
+white = "#C0C0C0"
+
+[colors.bright]
+black = "#006600"
+red = "#FFA0A0"
+green = "#80C2FF"
+yellow = "#FFFF80"
+blue = "#A0FFA0"
+magenta = "#FFAAFF"
+cyan = "#80FF80"
+white = "#FFFFFF"

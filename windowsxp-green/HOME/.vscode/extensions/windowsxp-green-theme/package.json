@@ -1,0 +1,20 @@
+{
+  "name": "windowsxp-green-theme",
+  "displayName": "Windows XP Green",
+  "description": "Windows XP classic green theme with variety of original wallpapers",
+  "version": "1.0.0",
+  "publisher": "brianspragge",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Windows XP Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/windowsxp-green-color-theme.json"
+      }
+    ]
+  }
+}
