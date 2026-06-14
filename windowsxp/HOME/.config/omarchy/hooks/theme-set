@@ -45,8 +45,8 @@ if pgrep -x helix >/dev/null 2>&1; then
   omarchy-restart-helix
 fi
 
-# Point symlink to source dir so next theme switch starts fresh
-# (current/theme/backgrounds/ has same filenames across themes, causing cycling)
+# Point symlink to source dir so next theme switch starts fresh, prevents
+# cycling of background images when switching from windowsxp to windowsxp-green.
 BG_SRC="$THEME_DIR/backgrounds/01 - Bliss.jpg"
 if [[ -f $BG_SRC ]]; then
   ln -sf "$BG_SRC" "$HOME/.config/omarchy/current/background"
