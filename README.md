@@ -2,7 +2,7 @@
 Install:  Jus' figure it out.  Should be straight forward <clone repo;copy/paste dirpaths>.
 
 ## The hooks dir
-This file is necessary in order to reload the waybar.  Omarchy does not
+This file is necessary in order to reload the waybar.  Omarchy, v3.8.4, does not
 currently have a nice implementation for very different waybar styles.
 
 ## Helix (non-omarchy users)
