@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# XP chrome for the windowsxp themes: dock the bar at the bottom and swap the
+# generic launcher for the green XP Start button. Every other theme gets the
+# default top bar and the stock launcher back. Runs via omarchy-hook theme-set
+# with the theme slug as $1.
+source "${OMARCHY_PATH:-/usr/share/omarchy}/bin/omarchy-shell-config"
+
+case "$1" in
+  windowsxp | windowsxp-*)
+    pos="bottom"
+    from="omarchy.menu"
+    to="windowsxp.start"
+    ;;
+  *)
+    pos="top"
+    from="windowsxp.start"
+    to="omarchy.menu"
+    ;;
+esac
+
+commit '
+  .bar.position = $pos
+  | .bar.layout = ((.bar.layout // {})
+      | walk(if type == "object" and .id == $from then .id = $to else . end))
+' --arg pos "$pos" --arg from "$from" --arg to "$to"
